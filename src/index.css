@@ -1,0 +1,165 @@
+body{  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#entire_header{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: solid lightgrey 2px;
+}
+#title_and_subtitle{
+  display:flex;
+  flex-direction: column;
+  
+  align-items: center;
+  width:100%;
+}
+#nav{
+
+  align-items: flex-start;
+  height:40px;
+  width:40px;
+}
+h2{
+  color:darkslategrey;
+}
+#Add_notes{
+  display:flex;
+  flex-direction: column;
+
+
+}
+#bottom_section{
+  display:flex;
+  flex-direction: row;
+}
+#left_bar{
+  
+  width:30%;
+  height:100vh;
+  
+  border-right: solid lightgrey 2px;
+  overflow-y: scroll;
+
+}
+#right_bar{
+  
+  width: 70%;
+}
+.notes{
+  border-bottom: solid lightgrey 2px;
+  width:100%;
+  height:50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+#new_note{
+  border:none;
+  cursor:pointer;
+  outline:none;
+  background: none;
+  font-size:30px;
+  margin-right: 10px;
+}
+#FirstBoxNotes{
+  padding-left: 10px;
+}
+#nav{
+  border:none;
+  cursor:pointer;
+  outline:none;
+  background:none;
+  font-size: 30px;
+}
+#default_page {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  font-size: 30px;
+}
+.quill{
+  width:100%;
+}
+#Editor_header{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:60px;
+  border-bottom: solid 2px  lightgray;
+}
+#Editor_header_RHS{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  margin-left: 12px;
+}
+#entire_flex{
+  width:100%;
+}
+.quill{height:100vh;}
+#Save{
+  outline: none;
+  background: none;
+  border:none;
+}
+#Save:hover{
+  background-color: lightgrey;
+}
+#Delete{
+  outline: none;
+  background: none;
+  border:none;
+}
+#Delete:hover{
+  background-color: lightgrey;
+}
+#titletxt{
+  margin-top: 12px;
+  height:30px;
+  border:none;
+  outline:none;
+  font-size: larger;
+  
+}
+#date{
+  outline:none;
+  border:none;
+  width:35%;
+  font-size: medium;
+}
+.notes_lists_cards{
+  border-bottom: lightgrey 2px solid;
+
+}
+#textboxremoved .ql-toolbar.ql-snow {
+  display: none;}
+
+.notes_lists_cards.notes_active{
+    background: royalblue;
+  }
+
+ 
